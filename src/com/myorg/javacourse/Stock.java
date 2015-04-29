@@ -14,11 +14,11 @@ public class Stock {
 	public Stock()
 	{}
 	
-	public Stock (String symbol,float d,float e, Date date)
+	public Stock (String symbol,float ask,float bid, Date date)
 	{
-		setSymbol(symbol);
-		setAsk(d);
-		setBid(e);
+		this.symbol=symbol;
+		this.ask=ask;
+		this.bid=bid;
 		this.date = date;
 		
 		
