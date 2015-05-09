@@ -4,22 +4,8 @@ xmlns="http://java.sun.com/xml/ns/javaee"
 xmlns:web="http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd"
 xsi:schemaLocation="http://java.sun.com/xml/ns/javaee
 http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" version="2.5">
-	<servlet>
-		<servlet-name>Ex4AdiDar</servlet-name>
-		<servlet-class>com.myorg.javacourse.Ex4AdiDarServlet</servlet-class>
-	</servlet>
-	<servlet-mapping>
-		<servlet-name>Ex4AdiDar</servlet-name>
-		<url-pattern>/ex4adidar</url-pattern>
-	</servlet-mapping>
-			<servlet>
-		<servlet-name>StockDetailsServlet</servlet-name>
-		<servlet-class>com.myorg.javacourse.StockDetailsServlet</servlet-class>
-	</servlet>
-	<servlet-mapping>
-		<servlet-name>StockDetailsServlet</servlet-name>
-		<url-pattern>/stockdetails</url-pattern>
-	</servlet-mapping>
+
+
 			<servlet>
 		<servlet-name>Portfolio</servlet-name>
 		<servlet-class>com.myorg.javacourse.servlet.PortfolioServlet</servlet-class>
