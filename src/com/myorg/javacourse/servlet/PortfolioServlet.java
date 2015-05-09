@@ -23,7 +23,7 @@ public void doGet(HttpServletRequest req, HttpServletResponse resp) throws IOExc
 		portfolio2.setTitle("Portfolio #2");
 		resp.getWriter().println(portfolio.getHtmlString());
 		resp.getWriter().println(portfolio2.getHtmlString());
-		portfolio.getStocks()[0]= new Stock();
+		portfolio.removeStockAtIndex(0);
 		resp.getWriter().println(portfolio.getHtmlString());
 		resp.getWriter().println(portfolio2.getHtmlString());
 		portfolio2.getStocks()[2].setBid((float) 55.5);

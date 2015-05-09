@@ -75,6 +75,10 @@ public class Stock {
 		
 	}
 
+	public  void remove () throws Throwable {
+	    
+		super.finalize();
+	}
 
 	public String getHtmlDescription()
 	{

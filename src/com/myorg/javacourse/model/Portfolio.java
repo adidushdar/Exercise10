@@ -49,6 +49,23 @@ public class Portfolio {
 	
 	}
 	
+	public void removeStockAtIndex(int index)
+	{
+		Stock[] newStocks= new Stock[MAX_PORTFOLIO_SIZE];
+		int j=0;
+		for (int i =0; i<MAX_PORTFOLIO_SIZE ;i++)
+		{
+			if (i!=index)
+			{
+				newStocks[j]=stocks[i];
+				j++;
+			}
+			
+		}
+		stocks=newStocks;
+		stockIndex--;
+		
+	}
 
 		
 		
