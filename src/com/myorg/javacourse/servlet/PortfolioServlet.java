@@ -20,7 +20,7 @@ public void doGet(HttpServletRequest req, HttpServletResponse resp) throws IOExc
 		PortfolioManager portfolioManager = new PortfolioManager();
 		Portfolio portfolio = portfolioManager.getPortfolio();
 		resp.getWriter().println(portfolio.getHtmlString());
-	
+		
 	
 }
 }
