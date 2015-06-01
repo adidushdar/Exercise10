@@ -41,4 +41,16 @@
 		<nature>com.google.appengine.eclipse.core.gaeNature</nature>
 		<nature>org.eclipse.wst.common.project.facet.core.nature</nature>
 	</natures>
+	<linkedResources>
+		<link>
+			<name>war/cron.xml</name>
+			<type>1</type>
+			<location>C:/Users/DAR/Downloads/לימודים/New folder/New folder/2015 JAVA/ex/Java course exe 8 files for students v5/Java course exe 8 files for students v5/war/WEB-INF/cron.xml</location>
+		</link>
+		<link>
+			<name>war/WEB-INF/web.xml</name>
+			<type>1</type>
+			<location>C:/Users/DAR/Downloads/לימודים/New folder/New folder/2015 JAVA/ex/Java course exe 8 files for students v5/Java course exe 8 files for students v5/war/WEB-INF/web.xml</location>
+		</link>
+	</linkedResources>
 </projectDescription>
