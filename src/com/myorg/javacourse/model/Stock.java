@@ -37,6 +37,8 @@ public class Stock implements StockInterface {
 		setStockQuantity(quantity);
 		this.date = date;
 	}
+	
+
 	public Stock(Stock stock)
 	{
 		
